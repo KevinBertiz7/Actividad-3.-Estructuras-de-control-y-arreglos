@@ -16,8 +16,8 @@ public class Principal {
     public static void main(String[] args) {
       
         Rectangulo r = new Rectangulo();
-        System.out.println("Area: "+ r.calcularArea());
-        System.out.println("Perimetro: "+ r.calcularPerimetro());
+        imprimirRectangulo(r);
+        
         
         
         
@@ -29,4 +29,10 @@ public class Principal {
         
         
     }
+    
+    public static void imprimirRectangulo(Rectangulo r){
+        System.out.println("Area: "+ r.calcularArea());
+        System.out.println("Perimetro: "+ r.calcularPerimetro());
+    }
+    
 }
